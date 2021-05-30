@@ -23,3 +23,15 @@ for j in range(2, len(my_list)):
 print("------------")
 for j in range(0, len(my_list), 2):
     print("(step) The value is = " + str(my_list[j]))
+print("------------")
+for n in my_list:
+    print("(n) The value is = " + str(n))
+
+book = {
+    "title" : "From the Earth to the Moon",
+    "author" : "Jules Verne",
+    "pages" : 240
+}
+print("------------")
+for key in book:
+    print("(book) " + key + " = " + str(book[key]))
